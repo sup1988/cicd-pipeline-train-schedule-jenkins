@@ -10,7 +10,7 @@ pipeline {
 	    stage('Two'){
 		    
 		steps {
-			input('Do you want to proceed?')
+			echo 'This is a sample pipeline script'
         }
 	    }
         stage('Three') {
